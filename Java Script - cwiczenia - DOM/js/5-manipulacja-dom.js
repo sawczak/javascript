@@ -12,3 +12,12 @@ console.log(header.lastElementChild.textContent); // text content pobiera nam te
 
 console.log(header.innerHTML); //brak struktury dla struktury header, a w outer jest
 console.log(document.querySelector('.parSecond').outerHTML); //dostajemy strukture dzieci i calej klasy
+
+
+
+let link = document.querySelector('.link.superlink'); //dostajemy tablicę wszystkich klas
+link.classList.add('nowa-klasa'); // dodaje klasę
+link.classList.remove('nowa-klasa'); //usuwa klase
+link.classList.toggle('nowa-klasa');
+
+console.log(link.classList);
