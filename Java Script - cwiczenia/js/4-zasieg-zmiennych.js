@@ -8,6 +8,10 @@ funkcjaTestowa = () => {
     }
 
 }
+// console.log(liczba);
 
 // console.log(liczba); ten console.log dotyczy liczby 50, bo consol dot. liczby 10 jest w if
-funkcjaTestowa();
+funkcjaTestowa(liczba);
+
+console.log(liczba);
+

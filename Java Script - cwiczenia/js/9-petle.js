@@ -15,13 +15,13 @@ let uzytkownicy = [
 
 /* pętla for */
 
-/* for (let index = 0; index < uzytkownicy.length; index++) { 
+for (let index = 0; index < uzytkownicy.length; index++) { 
     console.log(uzytkownicy[index].imie); 
 }
- */
+
 //start: od którego elementu zaczynamy, 0 - od poczatku, od pierwszego
 //koniec: < do kiedy ma trwac pętla, do którego elementu
-// po każdym elemencie powiększaj indeź o 1 - index++
+// po każdym elemencie powiększaj index o 1 - index++
 // operujemy liczbami i tablicami 
 
 

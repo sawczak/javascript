@@ -11,6 +11,9 @@ class Osoba {
 
 
 // const Osoba = require('../sciezka') Gdy dopisujemy kod i nie mamy dostepu do klasy wyżej, bo jest namespace. w innym pliku
+// wyświetlenie imienia i nazwiska 
+/* let maks = new Osoba('Maks', 'Kowalski');
+console.log(maks); */
 
 let maks = new Osoba('Maks', 'Kowalski');
 maks.kolorOczu = 'brązowy';
