@@ -1,5 +1,6 @@
-let tablica = [1, 2, 3, 4, 5, 6];
-let suma = 0;
+let tablica = [0,1,2,3,4,5];
+
+
 let mnozenie = 1;
 
 for (let index = 0; index < tablica.length; index++) {
