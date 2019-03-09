@@ -8,4 +8,11 @@ element = document.querySelector('header').firstElementChild; //odwołanie do pi
 element = document.querySelector('header').lastElementChild; //odwołanie do ostatniego dziecka
 
 
+
+
+
+// element = document.querySelector('header').firstElementChild; //odwołanie do pierwszego dziecka
+// element = document.querySelector('header').lastElementChild; //odwołanie do ostatniego dziecka
+
+
 console.log(element);

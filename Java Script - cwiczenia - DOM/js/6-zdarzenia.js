@@ -3,10 +3,8 @@ let header = document.querySelector('header');
 
 colorChange = () => {
     header.style.color = 'red';
-    // console.log('click z <header></header>');
+    console.log('click z <header></header>');
 }
-
-
 
 
 //HTML DOM zmiana koloru tła w wybranej klasie po kliknięciu
@@ -20,18 +18,23 @@ parSecond.ondblclick = ondblClick;
 
 
 
-//addEventListener po najechaniu myszką pojawia się kolor tła
+//addEventListener po najechaniu myszką  pojawia się kolor tła
 
 let parFirst = document.querySelector('#parFirst');
 
 najechanieMyszka = () => {
-    // parFirst.style.backgroundColor = 'blue';
-    parFirst.classList.toggle('toggle');
+    parFirst.style.backgroundColor = 'blue';
+    // parFirst.classList.toggle('toggle');
 }
 
-parFirst.addEventListener('click', najechanieMyszka);
+parFirst.addEventListener('mouseover', najechanieMyszka);
+// console.log(najechanieMyszka);
 
-// parFirst.addEventListener('mouseover', najechanieMyszka);
+// parFirst.removeEventListener('mouseover', najechanieMyszka);
+
+// parFirst.addEventListener('click', najechanieMyszka);
+
+
 
 //usuwanie powyższej funkcji z najechaniem i kolorem
 // parFirst.removeEventListener('mouseover', najechanieMyszka); tylko zniknię i sie nie pojawi
@@ -46,11 +49,11 @@ link.onclick = () => {
     console.log(event.target); // target pokazuje co jest linkiem w konsoli
 }
 
-// console.log(link);
+console.log(link);
 
 
 //po kliknięciu w h1 w konsoli pojawi się informacja, musimy mieć też
-// wpisane w ccolorChange console.log('click z <header></header>');
+// wpisane w colorChange console.log('click z <header></header>');
 
 let h1 = document.querySelector('#main-header');
 
@@ -58,3 +61,9 @@ h1.onclick = event => {
     event.stopPropagation();
     console.log('click z <h1></h1>');
 }
+
+
+
+
+
+

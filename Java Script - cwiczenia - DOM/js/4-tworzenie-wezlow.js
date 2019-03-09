@@ -1,4 +1,4 @@
-let footer = document.createElement('footer'); //w pamieci js tworzy sie nowy znacznik footer
+/* let footer = document.createElement('footer'); //w pamieci js tworzy sie nowy znacznik footer
 let footerText = document.createTextNode('stopka strony'); //stopka strony - to jest node
 
 footer.appendChild(footerText); //tworzymy <footer>Stopka strony </footer>
@@ -11,8 +11,25 @@ document.querySelector('section').insertAdjacentElement('afterend', footer); //w
 let parSecond = document.querySelector('.parSecond');
 document.body.firstElementChild.removeChild(parSecond); //usuwanie elementów, w tym przypadku klasę parSecond / removechild usuwa konkretny element, a nie tablice
 
+ */
 // let parFirst = document.querySelector('parFirst');
 // document.body.parentElement.removeAttribute('parFirst'); jak usunąć inny element?
 
 
-console.log(footer);
+// console.log(footer);
+
+
+
+let btn = document.createElement('guzik');
+let txt = document.createTextNode('kliknij');
+let klasa = document.createAttribute('klass');
+
+
+document.querySelector('.parSecond').appendChild(btn);
+btn.appendChild(txt);
+btn.setAttribute(klasa);
+
+btn.removeChild(txt);
+
+console.log(body);
+ 

@@ -11,3 +11,4 @@ ustawTlo = () => {
 
 document.querySelector('.przycisk').onclick = ustawTlo;
 
+// document.querySelector('.przycisk').addEventListener('click', ustawTlo);
